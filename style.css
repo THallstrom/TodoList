@@ -1,0 +1,79 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: start;
+    align-items: start;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    margin: 3rem;
+}
+
+.textInput {
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(90, 208, 248);
+    border: 3px solid rgb(90, 160, 248);
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 100vw;
+    max-width: 80%;
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.headLine {
+    font-size: 1rem;
+    align-self: flex-start;
+    margin-bottom: .7rem;
+}
+
+.content {
+    font-size: 1rem;
+    align-self: flex-end;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.padding{
+    padding: .3rem;
+}
+
+.btn {
+    width: 6rem;
+    height: 4rem;
+    border-radius: .5rem;
+}
+
+.showInfo {
+    border: 2px solid green;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 80%;
+    background-color: greenyellow;
+}
+
+.sInfoHeadline {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.sInfoContent{
+    font-size: normal;
+}
+
