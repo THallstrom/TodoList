@@ -59,7 +59,3 @@ function addToScreen(todoList) {
 		infoContainer.appendChild(showInfo);
 	});
 }
-
-function blabla() {
-    console.log("testar lite")
-}
