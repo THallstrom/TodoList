@@ -60,4 +60,6 @@ function addToScreen(todoList) {
 	});
 }
 
-
+function blabla() {
+    console.log("testar lite")
+}
